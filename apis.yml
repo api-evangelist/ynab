@@ -1,0 +1,32 @@
+aid: ynab
+name: YNAB
+description: "Budgeting & Planning"
+url: https://api.youneedabudget.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Finance"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Finance
+  - Public APIs
+apis:
+  - name: YNAB
+    description: "Budgeting & Planning"
+    humanURL: https://api.youneedabudget.com/
+    baseURL: https://api.youneedabudget.com/
+    tags:
+      - Finance
+    properties:
+      - type: Documentation
+        url: https://api.youneedabudget.com/
+common:
+  - type: Website
+    url: https://api.youneedabudget.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
