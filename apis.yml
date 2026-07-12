@@ -23,8 +23,14 @@ apis:
       - type: Documentation
         url: https://api.youneedabudget.com/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ynab-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ynab-domain-security.yml
   - type: Website
     url: https://api.youneedabudget.com/
+  - url: https://www.ynab.com/blog/rss.xml
+    type: Blog
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
 maintainers:
