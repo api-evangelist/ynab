@@ -41,7 +41,6 @@ apis:
   - name: YNAB
     description: "Budgeting & Planning"
     humanURL: https://api.youneedabudget.com/
-    baseURL: https://api.youneedabudget.com/
     tags:
       - Finance
     properties:
